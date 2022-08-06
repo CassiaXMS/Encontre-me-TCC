@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desaparecidos</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+
+    <main class="container">
+        <div class="header">
+            <img src="img/blue-logo.png" alt="">
+            <h1>Cadastro de desaparecidos</h1>
+            <p>Complete as informações</p>
+            <br>
+        </div>
+
+        <form action="">
+            <div class="container">
+                <div class="element">
+                    <label for="">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="element">
+                    <label for="">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <div class="element">
+                    <label for="">Idade</label>
+                    <input type="number" name="idade" id="idade">
+                </div>  
+            </div>
+
+            <div class="container">
+                <div class="element">
+                    <label for="">Ultimo Local visto(a)</label>
+                    <input type="text" name="local" id="local">
+                </div>
+                <div class="element">
+                    <label for="">Dia</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <div class="element">
+                    <label for="">Hora</label>
+                    <input type="time" name="hora" id="hora">
+                </div>
+            </div>
+
+            <div class="pre-container">
+                <div class="container-2">
+                    <div class="element">
+                        <label for="">Roupa que foi visto(a) pela última vez</label>
+                        <input type="text" name="roupa" id="roupa">
+                    </div>
+                    <div class="element">
+                        <label for="">Possui alguma comorbidade?</label>
+                        <input type="text" name="trans" id="trans">
+                    </div>
+                </div>
+
+                <div class="element-2">
+                    <label for="">Foto</label>
+                    <div class="img"> 
+                        <img class="pers" src="img/person.png" alt="Selecione uma Imagem" id="imgphoto">
+                    </div>
+                    <input type="file" id="img" name="img" accept="image/*">
+                </div>
+            </div>
+        </form>
+
+        <input type="submit" value="Cadastrar">
+    </main>
+
+    <script src="js/photo.js"></script>
+
+</body>
+</html>

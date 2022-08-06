@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(225.41deg, #08415C 9.87%, #4FB9DA 120.01%); 
+    background-repeat: no-repeat;
+    min-height:100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #08415C;
+}
+
+main.container{
+    background: white;
+    max-width: 80h;
+    min-height: 30vh;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.header{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.container-2{
+    display: flex;
+    flex-direction: column;
+}
+
+div.container div.element{
+    display: flex;
+    flex-direction:column; 
+}
+
+#idade{
+    width: 80px;
+}
+
+div.container-2 div.element{
+    display: flex;
+    flex-direction:column; 
+}
+
+div.container div.element input{
+    border: 1px solid #F6C90E;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 3px;
+}
+
+div.container-2 div.element input{
+    border: 1px solid #F6C90E;
+    border-radius: 5px;
+    height: 53px;
+    outline: none;
+    width: 110%;
+}
+
+div.pre-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.img{
+    height: 135px;
+    width: 100px;
+    background:#DCDCDC;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+    border:#F6C90E solid 1px;
+    margin-left: 5px;
+}
+
+div.element-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.img:hover{
+    background:#C7C7C7;
+}
+
+label{
+    margin: 3px;
+}
+
+input[type='file']{
+    display: none;
+}
+
+img.pers{
+    cursor: pointer;
+    width: 101%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 30%;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(265.86deg, #F6C90E 0%, #F7B801 100%);
+    border-radius: 24px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
