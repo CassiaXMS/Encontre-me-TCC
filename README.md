@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o projeto
 
-<p align="center"> :octocat: Objetivo é compartilhar o meu Trabalho de Conclusão de Curso (TCC) realizado em 2021 na ETEC de Monte Mor.
+<p align="center"> :octocat: Objetivo é compartilhar Front-end do meu Trabalho de Conclusão de Curso (TCC) realizado em 2021 na ETEC de Monte Mor.
   
   A proposta de desenvolvimento do sistema é auxiliar na procura de pessoas as quais estão na situação de 
   desaparecimento na Região Metropolitana de Campinas.
